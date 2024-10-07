@@ -5,6 +5,7 @@ Sistem Manajemen Nutrisi
 1. Extract file terlebih dahulu, Copy dan paste semua file Laravel SIMANUT ke htdocs xampp
 2. buka folder xampp/apache/conf/extra/httpd-vhosts.conf dengan notepad
 3. copy dan paste code berikut ke baris paling bawah, kemudian save :
+   
 <VirtualHost *:80>
     ServerAdmin webmaster@SIMANUT.test
     DocumentRoot "C:/xampp/htdocs/SIMANUT/public"
