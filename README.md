@@ -1,18 +1,18 @@
 # SIMANUT
 Sistem Manajemen Nutrisi
 
-#INSTALL KE SERVER LOKAL
+INSTALL KE SERVER LOKAL
 1. Extract file terlebih dahulu, Copy dan paste semua file Laravel SIMANUT ke htdocs xampp
 2. buka folder xampp/apache/conf/extra/httpd-vhosts.conf dengan notepad
 3. copy dan paste code berikut ke baris paling bawah, kemudian save :
    
 <VirtualHost *:80>
-    ServerAdmin webmaster@SIMANUT.test
-    DocumentRoot "C:/xampp/htdocs/SIMANUT/public"
-    ServerName SIMANUT.test
-    ErrorLog "logs/dummy-host2.example.com-error.log"
-    CustomLog "logs/dummy-host2.example.com-access.log" common
-</VirtualHost>
+	ServerAdmin webmaster@SIMANUT.test
+	DocumentRoot "C:/xampp/htdocs/SIMANUT/public"
+	ServerName SIMANUT.test
+	ErrorLog "logs/dummy-host2.example.com-error.log"
+	CustomLog "logs/dummy-host2.example.com-access.log" common
+ </VirtualHost>
 
 Keterangan:
 DocumentRoot isikan path letak laravelmu
