@@ -25,5 +25,5 @@ ServerName adalah nama domain website mu
 7. Lalu jalankan SIMANUT.test ke browser
 
 PERINGATAN:
-Install XAMPP versi 8.2.12 atau diatasnya
-import DB nya terlebih dahulu
+1. Install XAMPP versi 8.2.12 atau diatasnya
+2. import DB nya terlebih dahulu
